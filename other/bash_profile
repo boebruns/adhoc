@@ -1,0 +1,48 @@
+export PS1="\u: [\w]$ "
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
+export PATH=/Users/boe.bruns/Library/Python/2.7/bin::$PATH
+
+
+alias dicecomdev='awssaml -w; unset AWS_PROFILE; awssaml -u your.username -a dicecomdev:AWS-Developer;export AWS_PROFILE=dicecomdev:Developer'
+alias anotheraccount='awssaml -w; unset AWS_PROFILE; awssaml -u your.username -a anotheraccount:AWS-Developer;export AWS_PROFILE=anotheraccount:Developer'
+
+alias l='ls -ltr'
+alias awsEndeca='ssh ec2-user@found.diceqa.dhiaws.com'
+alias awsEndecaPilot='ssh ec2-user@found.dicepilot.dhiaws.com'
+alias awsEndecaProd='ssh -i "infrastructure_prod.pem" ec2-user@found.diceprod.dhiaws.com'
+alias awsEndecaNAV1Pilot='ssh -i "infrastructure_pilot.pem" ec2-user@10.14.74.167'
+alias awsEndecaNAV1Prod='ssh ec2-user@nav1.diceprod.dhiaws.com'
+alias awsEndecaNAV2Prod='ssh ec2-user@nav2.diceprod.dhiaws.com'
+alias awsEndecaNAV3Prod='ssh ec2-user@nav3.diceprod.dhiaws.com'
+alias awsEndecaNAV1QA='ssh ec2-user@nav1.diceqa.dhiaws.com'
+alias awsEndecaNAV2QA='ssh ec2-user@10.14.93.236'
+alias awsCustomerDev='ssh centos@10.14.73.23'
+alias awsCustomerProd='ssh -i "infrastructure_prod.pem" centos@10.13.72.203'
+alias awsCustomerProd2='ssh -i "infrastructure_prod.pem" centos@10.13.71.104'
+alias awsCustomerPilot='ssh -i "infrastructure_pilot.pem" centos@10.14.73.88'
+alias awsMEAR1='ssh centos@10.14.72.104'
+alias awsMEAR2='ssh centos@10.14.73.173'
+alias awsMEAR1Pilot='ssh -i "infrastructure_pilot.pem" centos@weblogic-app1.dicepilot.dhiaws.com'
+alias awsMEAR2Pilot='ssh -i "infrastructure_pilot.pem" centos@weblogic-app2.dicepilot.dhiaws.com'
+alias awsMEARPilotAdmin='ssh -i "infrastructure_pilot.pem" centos@weblogic-admin.dicepilot.dhiaws.com'
+alias awsMEAR1Prod='ssh -i "infrastructure_prod.pem" centos@weblogic-app1.diceprod.dhiaws.com'
+alias awsMEAR2Prod='ssh -i "infrastructure_prod.pem" centos@weblogic-app2.diceprod.dhiaws.com'
+alias awsIndexSvcPilot='ssh -i "infrastructure_pilot.pem" centos@10.14.72.228'
+alias awsCronQA='ssh ubuntu@cron.diceqa.dhiaws.com'
+alias awsCronPilot='ssh -i "infrastructure_pilot.pem" ubuntu@10.14.72.211'
+alias awsCronPilot1='ssh ubuntu@cron.dicepilot.dhiaws.com'
+alias awsCronProd='ssh -i "infrastructure_prod.pem" ubuntu@cron.diceprod.dhiaws.com'
+alias awsBatchSvcProd='ssh -i "infrastructure_prod.pem" ubuntu@batchsvc.diceprod.dhiaws.com'
+alias awsBatchSvcPilot='ssh -i "infrastructure_pilot.pem" ubuntu@batchsvc.dicepilot.dhiaws.com'
+alias awsIndexSvcProd='ssh -i "infrastructure_prod.pem" ubuntu@indexsvc.diceprod.dhiaws.com'
+alias awsAPIPilot='ssh -i "infrastructure_pilot.pem" ubuntu@10.14.73.14'
+alias awsAPI2='ssh ubuntu@10.14.73.44'
+alias awsPuppet='ssh ubuntu@puppetmaster_0.services.dicedev.dhiaws.com'
+alias gemini='cd /Users/boe.bruns/gemini/'
+alias awsSDK='export CLASSPATH=/Users/boe.bruns/aws-java-sdk/lib/*:/Users/boe.bruns/aws-java-sdk/third-party/lib/*'
+alias java8='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home'
+alias show_prod_versions='ssh ubuntu@puppetmaster_0.services.dicedev.dhiaws.com -i "dice_dev_ec2.pem" ruby compare_redis_app_versions.rb'
+
+source ~/.profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
