@@ -1,4 +1,6 @@
 select doc_key,
+       job_status_history.dice_id,
+
        to_timestamp(activity_time_millis
            / 1000),
        case action
@@ -15,6 +17,7 @@ select doc_key,
            end as "Action",
        pst_user_id,
        dice_id,
+       source_app,
        case source_app
            when 0 then 'JobMan'
            when 1 then 'Batch'
@@ -23,6 +26,10 @@ select doc_key,
            when 4 then 'WebStore'
            when 5 then 'PurgeActiveJobs'
            when 6 then 'JSH CleanUp'
+           when 7 then 'PPV Process'
+           when 8 then 'API'
+           when 9 then 'PurgeSlots'
+           when 10 then 'JPIS'
            end as "Source App",
        case current_state
            when -1 then 'deleted'
@@ -40,8 +47,7 @@ select doc_key,
            end as "Previous State"
 from job_status_history
 where 1 = 1 --3600000
-  and doc_key in ('e59b190db5000898a12d11f595109507')
-    --and DICE_ID = 'cybercod'
---and action = 2
-order by activity_time_millis;
-
+  and doc_key in ('5bcdaa4bd6461c88e4af3a8075f78268')
+-- and dice_id = '10462843'
+order by doc_key, to_timestamp(activity_time_millis
+           / 1000) desc;
