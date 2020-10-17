@@ -1,0 +1,1000 @@
+    7  ./runcommand.sh LockManager releaseLock update_lock
+    8  w
+    9  last -10
+   10  crontab -l
+   11  ps auxwww | grep sleep
+   12  ps auxwww
+   13  crontab -l
+   14  more /usr/local/gemini/endeca/bin/announce_coll_build prod
+   15    ls -altr /tmp/
+   16  crontab -l
+   17  more /usr/local/gemini/endeca/bin/announce_coll_build
+   18  w
+   19  cd /tmp/
+   20  ls
+   21  ls -altr
+   22  tail -f dice_activeprofiles_update.txt
+   23  history
+   24  cd /usr/local/gemini/endeca
+   25  cd projects/
+   26  ls
+   27  cd DiceProfile
+   28  ls
+   29  cd control
+   30  ./runcommand.sh LockManager releaseLock update_lock
+   31  ps auxwww| grep sleep
+   32  df
+   33  cd /tmp/
+   34  ls
+   35  ls -altr
+   36  date
+   37  ps auxwww | grep active
+   38  last -10
+   39  date
+   40  cd /tmp/
+   41  ls
+   42  ls -altr
+   43  date
+   44  tail -f dice_activeprofiles_update.txt
+   45  w
+   46  tail -5000 dice_activeprofiles_update.txt
+   47  cd /usr/local/endeca
+   48  ls
+   49  cd /usr/local/gemini/endeca
+   50  ls
+   51  cd projects/
+   52  ls
+   53  cd DiceProfile
+   54  ls
+   55  cd con
+   56  ls
+   57  cd control/
+   58  ls
+   59  history
+   60  history | grep lock
+   61  ./runcommand.sh LockManager releaseLock update_lock
+   62  ls
+   63  ps aux | grep sleep
+   64  ps aux | grep Profile
+   65  ps aux | grep active
+   66  ls
+   67  cd /tmp/
+   68  ls
+   69  tail dice_activeprofiles_update.txt
+   70  killall sleep
+   71  tail -f dice_activeprofiles_update.txt
+   72  crontab -l
+   73  cd /tmp/
+   74  ls -ltr /tmp/dice_activeprofiles_update.txt
+   75  vi /tmp/dice_activeprofiles_update.txt
+   76  pwd
+   77  ls -ltr /tmp/dice_activeprofiles_update.txt
+   78  vi /tmp/dice_activeprofiles_update.txt
+   79  history
+   80  cd /usr/local/gemini/endeca/projects/DiceProfile
+   81  ps auxww | grep dgraph | grep DiceProfile
+   82  cd control/
+   83  cd /usr/local/gemini/endeca/projects/DiceProfile/control/
+   84  crontab -l
+   85  :q!
+   86  history
+   87  cd
+   88  exit
+   89  ls -lah
+   90  history
+   91  history | partial
+   92  history
+   93  ps aux | grep -i active
+   94  ps aux
+   95  cd /tmp/
+   96  ls -lah
+   97  history
+   98  ls -lah
+   99  history
+  100  history |
+  101  history | grep nohup
+  102  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  103  tail -f /tmp/dice_activeprofiles_update.txt
+  104  ps aux | grep endeca
+  105  ps aux | grep active
+  106  ps aux | grep announce
+  107  tail -f /tmp/dice_activeprofiles_update.txt
+  108  ps aux | grep announce
+  109  hostname
+  110  hostname -f
+  111  ps aux | grep sleep
+  112  ps aux | grep -i active
+  113  ps aux | grep -i announce
+  114  tree
+  115  pstree
+  116  man pstree
+  117  pstree 25147
+  118  cd /usr/local/gemini/endeca/bin/
+  119  ls
+  120  cat announce_partial_build_coll
+  121  tail -f /tmp/dice_activeprofiles_update.txt
+  122  ps aux  | grep sleep
+  123  ps aux | grep announce
+  124  pstree 25147
+  125  pstree 25147 -p
+  126  kill 31484
+  127  tail -f /tmp/dice_activeprofiles_update.txt
+  128  crontab -l
+  129  tail -f /tmp/dice_activeprofiles_update.txt
+  130  ps aux | grep Profile
+  131  cd /tmp/
+  132  ls
+  133  tail dice_activeprofiles_update.txt
+  134  date
+  135  ps aux | grep sleep
+  136  ps aux | grep java
+  137  ps aux | grep Profile
+  138  ps aux | grep Dice
+  139  ps aux  | grep dice
+  140  ls
+  141  cd /usr/local/endeca
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd gemini/endeca
+  146  ls
+  147  cd projects/
+  148  ls
+  149  cd DiceProfile
+  150  ls
+  151  ps aux | grep .sh
+  152  cd ..
+  153  cd ..
+  154  ls
+  155  ps aux | grep profile
+  156  ps aux | grep active
+  157  history | grep active
+  158  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  159  tail -f /tmp/dice_activeprofiles_update.txt
+  160  tail -f /tmp/dice_activeprofiles_update.txt
+  161  ps aux | grep active
+  162  ps aux | grep endeca
+  163  ps aux | grep nohup
+  164  ps aux | grep announce
+  165  tail -f /tmp/dice_activeprofiles_update.txt
+  166  history | grep copy
+  167  ps aux | grep profile
+  168  history
+  169  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  170  tail -f /tmp/dice_activeprofiles_update.txt
+  171  tail -f /tmp/dice_activeprofiles_update.txt
+  172  tail -f /tmp/dice_activeprofiles_update.txt
+  173  ls
+  174  ls
+  175  cd /tmp/
+  176  ls
+  177  cat dice_activeprofiles_update.txt
+  178  ps aux | grep dgraph
+  179  ps aux | grep dgrap
+  180  history | grep dgraph
+  181  cd /usr/local/gemini/endeca
+  182  ls
+  183  cd com/
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd projects/DiceProfile
+  188  ls
+  189  cd control/
+  190  ls
+  191  cat nohup.out
+  192  ls
+  193  at runcommand.sh
+  194  cat runcommand.sh
+  195  ls
+  196  history | grep runcommand.sh
+  197  ./runcommand.sh Dgraph3 stop
+  198  ./runcommand.sh Dgraph3 status
+  199  ./runcommand.sh Dgraph3 start
+  200  cat /tmp/dice_activeprofiles_update.txt
+  201  date
+  202  ps aux | grep DiceProfile
+  203  ps aux | grep dice
+  204  cd /tmp/
+  205  ls
+  206  ps aux | grep java
+  207  ls
+  208  tail -f dice_activeprofiles_update.txt
+  209  history
+  210  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  211  tail -f /tmp/dice_activeprofiles_update.txt
+  212  cat /tmp/dice_activeprofiles_update.txt
+  213  cd /usr/local/gemini/endeca/projects/DiceProfile
+  214  ls
+  215  cd control/
+  216  ls
+  217  history | grep lock
+  218  ./runcommand.sh LockManager releaseLock update_lock
+  219  ps aux | grep java
+  220  ls
+  221  crontab -l
+  222  nohup /usr/local/gemini/endeca/bin/announce_coll_build prod > /tmp/dice_activeprofiles_update.txt 2>&1 &
+  223  tail -f /tmp/dice_activeprofiles_update.txt
+  224  cd /tmp/
+  225  cat dice_activeprofiles_update.txt
+  226  ls
+  227  tail -f dice_activeprofiles_update.txt
+  228  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  229  exit
+  230  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  231  exit
+  232  cd /usr/local/gemini/endeca/projects/DiceProfile
+  233  cd control/
+  234  ./runcommand.sh LockManager releaseLock update_lock
+  235  cd
+  236  cd /tmp
+  237  ls -la
+  238  tail -f dice_activeprofiles_update.txt
+  239  more /usr/local/gemini/endeca/bin/announce_partial_build_coll
+  240  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod &
+  241  cd /tmp
+  242  ls -la
+  243  cd
+  244  ls -la
+  245  more nohup.out
+  246  ps aux
+  247  kill -9 3070
+  248  ps aux | grep endeca
+  249  ls -la
+  250  crontab -l
+  251  more /usr/local/gemini/endeca/bin/announce_coll_build
+  252  cd /usr/local/gemini/endeca
+  253  ls
+  254  cd projects/DiceProfile
+  255  ls
+  256  cd con
+  257  cd control/
+  258  ls
+  259  history | grep runCommand
+  260  history | grep lock
+  261  ./runcommand.sh LockManager releaseLock update_lock
+  262  history | grep partial
+  263  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  264  tail -f /tmp/dice_activeprofiles_update.txt
+  265  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  266  ps aux | grep -i profiles
+  267  kill 25623
+  268  ps aux | grep -i profiles
+  269  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  270  ps aux | grep -i profiles
+  271  history
+  272  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  273  ps aux | grep coll
+  274  tail /tmp/dice_activeprofiles_update.txt
+  275  ps aux | grep coll
+  276  cd /tmp/
+  277  ls
+  278  cat dice_activeprofiles_update.txt
+  279  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  280  ./runcommand.sh LockManager releaseLock update_lock
+  281  crontab -l
+  282  ls
+  283  history
+  284  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  285  tail -f /tmp/dice_activeprofiles_update.txt
+  286  crontab -l
+  287  date
+  288  tail -f /tmp/dice_activeprofiles_update.txt
+  289  exit
+  290  tail -f /tmp/dice_activeprofiles_update.txt
+  291  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  292  tail -f /tmp/dice_activeprofiles_update.txt
+  293  exit
+  294  history
+  295  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  296  tail -f /tmp/dice_activeprofiles_update.txt
+  297  history
+  298  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  299  ./runcommand.sh LockManager releaseLock update_lock
+  300  ps aux | grep build
+  301  kill 29429
+  302  ps aux | grep build
+  303  history
+  304  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  305  tail -f /tmp/dice_activeprofiles_update.txt
+  306  ps aux | grep build
+  307  kill 1016
+  308  ps aux | grep build
+  309  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  310  tail -f /tmp/dice_activeprofiles_update.txt
+  311  exit
+  312  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  313  ps aux | grep build
+  314  tail -f /tmp/dice_activeprofiles_update.txt
+  315  ps -ef
+  316  ps aux | grep build
+  317  ll
+  318  pwd
+  319  ps ef
+  320  ps aux | grep build
+  321  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  322  exit
+  323  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  324  exit
+  325  ll
+  326  ./runcommand.sh LockManager releaseLock update_lock
+  327  ./runcommand.sh LockManager releaseLock update_lock
+  328  cd /usr/local/gemini/endeca/projects/DiceProfile
+  329  ls
+  330  cd control/
+  331  ls
+  332  cd load_
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd logs/
+  337  ls
+  338  ll
+  339  tail DiceProfile.0.0.log
+  340  cd
+  341  crontab -e
+  342  crontab -l
+  343  cat /etc/crontab
+  344  crontab -l
+  345  cd /etc/cron.d
+  346  ls
+  347  crontab -l
+  348  nohup /usr/local/gemini/endeca/bin/announce_coll_build prod > /tmp/dice_activeprofiles_update.txt &
+  349  cd /tmp/
+  350  tail dice_activeprofiles_update.txt
+  351  tail -f dice_activeprofiles_update.txt
+  352  ps aux | grep java
+  353  /usr/local/gemini/endeca/bin/announce_coll_build prod
+  354  cd
+  355  nohup /usr/local/gemini/endeca/bin/announce_coll_build prod >> /tmp/dice_activeprofiles_update.txt &
+  356  nohup /usr/local/gemini/endeca/bin/announce_coll_build prod >> /tmp/dice_activeprofiles_update.txt &
+  357  cat /tmp/dice_activeprofiles_update.txt
+  358  cd /tmp/
+  359  ls
+  360  rm dice_activeprofiles_update.txt
+  361  nohup /usr/local/gemini/endeca/bin/announce_coll_build prod >> /tmp/dice_activeprofiles_update.txt &
+  362  cat /tmp/dice_activeprofiles_update.txt
+  363  ps aux | grep java
+  364  history | grep nohup
+  365  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  366  cat /tmp/dice_activeprofiles_update.txt
+  367  ps aux | grep dice_activeprofiles_update.txt
+  368  ps aux | grep java
+  369  ps aux | grep java | grep Profile
+  370  ps aux | grep java | grep Profile
+  371  cd /usr/local/gemini/
+  372  ls
+  373  cd endeca
+  374  ls
+  375  cd projects/
+  376  ls
+  377  cd DiceProfile
+  378  ls
+  379  cd con
+  380  ls
+  381  cd control/
+  382  ls
+  383  history
+  384  ./runcommand.sh LockManager releaseLock update_lock
+  385  cd
+  386  history | grep nohup
+  387  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  388  cat /tmp/dice_activeprofiles_update.txt
+  389  cat /usr/local/gemini/endeca/bin/announce_partial_build_coll
+  390  ps auxwww | grep -v grep | grep full_update_profiles
+  391  tail -f /tmp/dice_activeprofiles_update.txt
+  392  kill 15195
+  393  ps auxwww | grep -v grep | grep full_update_profiles
+  394  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  395  tail -f /tmp/dice_activeprofiles_update.txt
+  396  history
+  397  ps aux | grep build
+  398  cat /tmp/dice_activeprofiles_update.txt
+  399  date
+  400  history
+  401  ./runcommand.sh LockManager releaseLock update_lock
+  402  cd /usr/local/gemini/endeca/projects/DiceProfile/control/
+  403  ./runcommand.sh LockManager releaseLock update_lock
+  404  df -h
+  405  crontab -l
+  406  cat /usr/local/gemini/endeca/bin/announce_coll_build prod
+  407  history
+  408  cat /usr/local/gemini/endeca/bin/announce_partial_build_coll
+  409  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  410  tail -f /tmp/dice_activeprofiles_update.txt
+  411  exit
+  412  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  413  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt
+  414  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  415  ./runcommand.sh LockManager releaseLock update_lock
+  416  cat dice_profileagents_update.txt
+  417  ls
+  418  cat dice_activeprofiles_update.txt
+  419  ps aux | grep active
+  420  ls
+  421  cd /usr/local/gemini/endeca
+  422  ls
+  423  cd  projects/
+  424  ls
+  425  cd DiceProfile
+  426  ls
+  427  cd o
+  428  ls
+  429  cd o
+  430  cd logs/
+  431  ls
+  432  cat DiceProfile.0.0.log
+  433  ls
+  434  tail baseline_update.out
+  435  pwd
+  436  pwd
+  437  tail baseline_update.out
+  438  ll
+  439  tail DiceProfile.0.0.log
+  440  cd ..
+  441  ls
+  442  cd con
+  443  ls
+  444  cd control/
+  445  ls
+  446  history | grep runCommand
+  447  history | grep runcommand
+  448  ./runcommand.sh LockManager releaseLock update_lock
+  449  ls
+  450  crontab -l
+  451  cd /usr/local/gemini/endeca/bin/
+  452  more announce_coll_build
+  453  ls
+  454  ./announce_partial_build_coll prod
+  455  nohup ./announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  456  tail -f /tmp/dice_activeprofiles_update.txt
+  457  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  458  ./runcommand.sh LockManager releaseLock update_lock
+  459  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  460  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  461  ./runcommand.sh LockManager releaseLock update_lock
+  462  ./runcommand.sh LockManager releaseLock update_lock
+  463  exit
+  464  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  465  exit
+  466  history | grep doitr
+  467  history | grep doit
+  468  ls
+  469  history
+  470  history | grep for
+  471  cd
+  472  ls
+  473  df
+  474  cd
+  475  ls
+  476  more findfiles
+  477  cd recovery/
+  478  ls
+  479  more doit
+  480  echo brian
+  481  echo brian |awk '{print $2}'
+  482  echo brian |awk '{print $1}'
+  483  echo brian | cut -c 1
+  484  echo brian | cut -c 2
+  485  pwd
+  486  ls
+  487  cd ..
+  488  mkdir s3recovery
+  489  cd s3recovery/
+  490  ls
+  491  vi files
+  492  vi doit
+  493  ./do
+  494  chmod +x doit
+  495  ./doit
+  496  vi doit
+  497  ./doit
+  498  more files
+  499  ./doit
+  500  cat files
+  501  vi doit
+  502  cat files
+  503  ./doit
+  504  vi doit
+  505  ./doit
+  506  more files
+  507  vi doit
+  508  ./doit
+  509  more files
+  510  ./doit
+  511  more doit
+  512  vi doit
+  513  ./doit
+  514  more files
+  515  more doit
+  516  I more doit
+  517  more doit
+  518  vi doit
+  519  ./doit
+  520  vi doit
+  521  ./doit
+  522  echo brian | cut -c 1 | cut -c 2
+  523  echo brian | cut -c 1
+  524  ls
+  525  more files
+  526  ls
+  527  more doit
+  528  vi doit
+  529  ./doit
+  530  vi doit
+  531  ./doit
+  532  vi doit
+  533  ./doit
+  534  vi doit
+  535  ./doit
+  536  vi doit
+  537  ./doit
+  538  vi doit
+  539  ./doit
+  540  vi doit
+  541  ./doit
+  542  vi doit
+  543  ./doit
+  544  vi doit
+  545  ./doit
+  546  vi doit
+  547  ./doit
+  548  vi doit
+  549  ./doit
+  550  sed -n '1,5p' BSD
+  551  sed -n '1,5p' file
+  552  more files
+  553  sed -n '1,5p' files
+  554  sed -c '1' files
+  555  history | grep awk
+  556  history | grep s3
+  557  history
+  558  aws s3 ls dicexml-production
+  559  aws s3 copy
+  560  cd
+  561  ls
+  562  more findfiles
+  563  cd s3recovery/
+  564  ls
+  565  more files
+  566  aws s3 cp dicexml-production/jobs/b/5/b55dc87e924dd8d7e447f138083d8262 .
+  567  aws s3 cp s3://dicexml-production/jobs/b/5/b55dc87e924dd8d7e447f138083d8262 .
+  568  aws s3 cp s3://dicexml-production/jobs/d/f/df8861a4dc91b75e37cab616ec2cb98a.
+  569  aws s3 cp s3://dicexml-production/jobs/d/f/df8861a4dc91b75e37cab616ec2cb98a .
+  570  history
+  571  ps aux | grep announce
+  572  ps aux | grep endeca
+  573  crontab -l
+  574  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  575  ls
+  576  cd ../..
+  577  ls
+  578  cd DiceProfile
+  579  ls
+  580  cd control/
+  581  ./runcommand.sh LockManager releaseLock update_lock
+  582  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  583  tail -f /tmp/dice_activeprofiles_update.txt
+  584  exit
+  585  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  586  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  587  exit
+  588  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  589  ./runcommand.sh LockManager releaseLock update_lock
+  590  exit
+  591  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  592  ./runcommand.sh LockManager releaseLock update_lock as user endeca
+  593  cd /
+  594  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  595  ps aux | grep endeca
+  596  ps aux | grep endeca
+  597  pwd
+  598  ls
+  599  history
+  600  ps aux | grep endeca
+  601  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  602  ./runcommand.sh LockManager releaseLock update_lock
+  603  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  604  tail -f /tmp/dice_activeprofiles_update.txt
+  605  exit
+  606  pwd
+  607  history
+  608  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  609  ./runcommand.sh LockManager releaseLock update_lock
+  610  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod >> /tmp/dice_activeprofiles_update.txt &
+  611  tail -f /tmp/dice_activeprofiles_update.txt
+  612  exit
+  613  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  614  ./runcommand.sh LockManager
+  615  exirt
+  616  exit
+  617  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  618  ps -ef | grep "announce_partial_build_coll"
+  619  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  620  crontab -l
+  621  ps aux | grep endeca
+  622  date
+  623  history
+  624  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  625  ./runcommand.sh LockManager releaseLock update_lock
+  626  date
+  627  ps aux | grep endeca
+  628  tail -f /tmp/dice_activeprofiles_update.txt
+  629  cat /tmp/dice_activeprofiles_update.txt
+  630  exit
+  631  ps aux | grep profile
+  632  kill -9 kill -9 5037
+  633  exit
+  634  cd /usr/local/gemini/endeca/projects/DiceProfileAgentColl/control
+  635  ./runcommand.sh --skip-definition LockManager releaseLock update_lock
+  636  tail -f /tmp/dice_activeprofiles_update.txt
+  637  ps -ef | grep announce
+  638  kill -9 25170
+  639  kill -9 23620
+  640  ps aux | grep announce
+  641  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  642  tial -f /tmp/dice_activeprofiles_update.txt
+  643  tail -f /tmp/dice_activeprofiles_update.txt
+  644  exi
+  645  exit
+  646  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  647  exit
+  648  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  649  ./runcommand.sh LockManager releaseLock update_lock
+  650  exit
+  651  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  652  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  653  ./runcommand.sh LockManager releaseLock update_lock
+  654  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  655  ./runcommand.sh LockManager releaseLock update_lock
+  656  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  657  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  658  ll
+  659  ./runcommand.sh LockManager releaseLock update_lock
+  660  exit
+  661  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  662  exit
+  663  cd /usr/local/gemini/endeca/projects/DiceProfile/contro
+  664  ./runcommand.sh LockManager releaseLock update_lock
+  665  ./runcommand.sh LockManager releaseLock update_lock
+  666  ./runcommand.sh LockManager releaseLock
+  667  ./runcommand.sh LockManager releaseLock update_lock
+  668  ps -ef | grep "announce_partial_build_coll"
+  669  ps -ef | grep "lock"
+  670  ps -ef | grep "lockmanager"
+  671  ps -ef | grep "LockManager"
+  672  ps -ef | grep "Lock"
+  673  ./runcommand.sh LockManager releaseLock update_lock
+  674  ll
+  675  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  676  ll
+  677  ./runcommand.sh LockManager releaseLock update_lock
+  678  exit
+  679  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  680  exi
+  681  exit
+  682  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  683  ./runcommand.sh LockManager releaseLock update_lock
+  684  exit
+  685  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  686  exit
+  687  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  688  ./runcommand.sh LockManager releaseLock update_lock
+  689  exit
+  690  ps -ef | grep "announce_partial_build_coll"
+  691  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  692  eit
+  693  exit
+  694  cd /tmp
+  695  ls -la
+  696  tail -200 dice_activeprofiles_update.txt
+  697  cd /usr/local/gemini/endeca/projects/DiceProfile/control/
+  698  ls -la
+  699  ./runcommand.sh LockManager releaseLock update_lock
+  700  ls -la
+  701  pwd
+  702  ps aux |more
+  703  ls -la
+  704  cd /usr/local/gemini/endeca/bin/
+  705  ls -la
+  706  crontab -l
+  707  more ./announce_coll_build
+  708  ls -la
+  709  crontab -l
+  710  more passive_coll_build
+  711  ps aux
+  712  cd /tmp
+  713  ls -la
+  714  more dice_passiveprofiles_update.txt
+  715  ps -ef | grep "announce_partial"
+  716  ps aux |more
+  717  ls -la
+  718  tail -200 dice_activeprofiles_update.txt
+  719  ps aux |more
+  720  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  721  tail -f /tmp/dice_activeprofiles_update.txt
+  722  ps aux | grep active
+  723  ps aux | more
+  724  ls -la
+  725  tail -f dice_activeprofiles_update.txt
+  726  ./runcommand.sh LockManager releaseLock update_lock as user endeca
+  727  /usr/local/gemini/endeca/projects/DiceProfile/contro
+  728  cd /usr/local/gemini/endeca/projects/DiceProfile/contro
+  729  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  730  history
+  731  ps aux
+  732  history
+  733  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  734  ./runcommand.sh LockManager releaseLock update_lock
+  735  cat /tmp/dice_activeprofiles_update.txt
+  736  cd /tmp/
+  737  ls -lah
+  738  ps aux | grep -i active
+  739  history
+  740  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  741  tail -f /tmp/dice_activeprofiles_update.txt
+  742  cd /tmp
+  743  ls -la
+  744  more dice_passiveprofiles_update.txt
+  745  tail -f dice_passiveprofiles_update.txt
+  746  clear; tail -100 dice_passiveprofiles_update.txt
+  747  exit
+  748  ps aux | grep active
+  749  history
+  750  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  751  ./runcommand.sh LockManager releaseLock update_lock
+  752  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  753  tail -f /tmp/dice_activeprofiles_update.txt
+  754  top -c
+  755  ps aux | grep active
+  756  ps aux | grep -i active
+  757  tail -f /tmp/dice_activeprofiles_update.txt
+  758  ps aux | grep -i endeca
+  759  history
+  760  ps aux | grep -i endeca
+  761  tail -f /tmp/dice_activeprofiles_update.txt
+  762  uptime
+  763  tail -f /tmp/dice_activeprofiles_update.txt
+  764  ps aux |  grep endeca
+  765  crontab -l
+  766  hostname -f
+  767  hostname
+  768  cat /etc/hosts
+  769  hostname endeca_foundry-i-0113b853e03637f43-us-east-1-production-dhiaws-com
+  770  exit
+  771  history
+  772  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  773  tail -f /tmp/dice_activeprofiles_update.txt
+  774  ps aux | grep -i endeca
+  775  tail -f /tmp/dice_activeprofiles_update.txt
+  776  ps aux | grep -i endeca
+  777  uptime
+  778  cat /proc/cpuinfo
+  779  top -c
+  780  tail -f /tmp/dice_activeprofiles_update.txt
+  781  exit
+  782  crontab -l
+  783  ps aux | grep endeca
+  784  tail -f /tmp/dice_activeprofiles_update.txt
+  785  cat /var/log/secure
+  786  exit
+  787  crontab -l
+  788  /usr/local/gemini/endeca/bin/kill_build
+  789  ps aux | grep endeca
+  790  history
+  791  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  792  ./runcommand.sh LockManager releaseLock update_lock
+  793  crontab -l
+  794  /usr/local/gemini/endeca/bin/announce_coll_build prod > /tmp/dice_activeprofiles_update.txt 2>&1
+  795  ps aux | grep endeca
+  796  /usr/local/gemini/endeca/bin/announce_coll_build prod > /tmp/dice_activeprofiles_update.txt 2>&1 &
+  797  ps aux | grep endeca
+  798  tail -f /tmp/dice_activeprofiles_update.txt
+  799  vim /tmp/dice_activeprofiles_update.txt
+  800  crontab -l
+  801  history
+  802  cd /usr/local/gemini/endeca/bin/
+  803  ls
+  804  cat announce_coll_build
+  805  cat full_update_profiles
+  806  cd /etc/telegraf/
+  807  ls
+  808  cd telegraf.d
+  809  ls
+  810  cd ..
+  811  ls
+  812  tail /tmp/dice_activeprofiles_update.txt
+  813  crontab -l
+  814  /usr/local/gemini/endeca/bin/kill_build
+  815  ps aux | grep endeca
+  816  cat /usr/local/gemini/endeca/bin/kill_build
+  817  lsof | grep /tmp/
+  818  top -c
+  819  cd /tmp/
+  820  ls -lah
+  821  cat dice_passiveprofiles_update.txt
+  822  ls -lah
+  823  cat dice_profileagents_update.txt
+  824  history
+  825  crontab -l
+  826  cat dice_activeprofiles_update.txt
+  827  ps aux | grep endeca
+  828  cat dice_activeprofiles_update.txt
+  829  ps aux | grep endeca
+  830  uptime
+  831  ps aux | grep endeca
+  832  tail /tmp/dice_activeprofiles_update.txt
+  833  ps aux | grep endeca
+  834  tail /tmp/dice_activeprofiles_update.txt
+  835  ps aux | grep endeca
+  836  tail /tmp/dice_activeprofiles_update.txt
+  837  ps aux | grep endeca
+  838  tail /tmp/dice_activeprofiles_update.txt
+  839  ps aux | grep endeca
+  840  tail /tmp/dice_activeprofiles_update.txt
+  841  ps aux | grep endeca
+  842  tail /tmp/dice_activeprofiles_update.txt
+  843  ps aux | grep endeca
+  844  exit
+  845  /usr/local/gemini/endeca/projects/DiceProfile/contro
+  846  ./runcommand.sh LockManager releaseLock update_lock
+  847  cd /usr/local/gemini/endeca/projects/DiceProfile/contro
+  848  ./runcommand.sh LockManager releaseLock update_lock
+  849  ps releaseLock
+  850  ps -ef releaseLock
+  851  ps -ef |grep releaseLock
+  852  pwd
+  853  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  854  pwd
+  855  ./runcommand.sh LockManager releaseLock update_lock
+  856  exit
+  857  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  858  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  859  ps aux | grep endeca
+  860  ps -ef | grep "announce_partial_build_coll"
+  861  ./runcommand.sh LockManager releaseLock update_lock
+  862  exit
+  863  ps uax
+  864  tail -f /tmp/dice_activeprofiles_update.txt
+  865  ps -ef | grep "announce_partial"
+  866  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  867  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  868  ./runcommand.sh LockManager releaseLock update_lock
+  869  ls -la
+  870  ps -ef | grep "announce_partial"
+  871  cd /tmp
+  872  ls -la
+  873  more dice_activeprofiles_update.txt
+  874  tail -f dice_activeprofiles_update.txt
+  875  exit
+  876  ps aux | grep announce
+  877  cd /tmp
+  878  ls -la
+  879  more dice_activeprofiles_update.txt
+  880  tail -f dice_activeprofiles_update.txt
+  881  ps aux |more
+  882  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  883  exit
+  884  ls -la /tmp
+  885  more /tmp/dice_activeprofiles_update.txt
+  886  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  887  tail -f /tmp/dice_activeprofiles_update.txt
+  888  exit
+  889  crontab -l
+  890  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  891  tail -f /tmp/dice_activeprofiles_update.txt
+  892  history
+  893  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  894  ./runcommand.sh LockManager releaseLock update_lock
+  895  ps aux | grep endeca
+  896  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  897  ps aux | grep endeca
+  898  exit
+  899  history
+  900  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  901  ./runcommand.sh LockManager releaseLock update_lock
+  902  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  903  ps aux | grep endeca
+  904  cd /tmp
+  905  ls -la
+  906  tail -f dice_activeprofiles_update.txt
+  907  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  908  exit
+  909  history
+  910  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  911  ./runcommand.sh LockManager releaseLock update_lock
+  912  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  913  ps aux | grep endeca
+  914  exit
+  915  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  916  exit
+  917  history
+  918  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  919  ./runcommand.sh LockManager releaseLock update_lock
+  920  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  921  tail -f /tmp/dice_activeprofiles_update.txt
+  922  exit
+  923  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  924  tail -f /tmp/dice_activeprofiles_update.txt
+  925  exit
+  926  history
+  927  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  928  ./runcommand.sh LockManager releaseLock update_lock
+  929  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  930  exit
+  931  history
+  932  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  933  ./runcommand.sh LockManager releaseLock update_lock
+  934  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  935  exit
+  936  history
+  937  top -c
+  938  history
+  939  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  940  ./runcommand.sh LockManager releaseLock update_lock
+  941  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  942  exit
+  943  history
+  944  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  945  ./runcommand.sh LockManager releaseLock update_lock
+  946  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  947  exit
+  948  history
+  949  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  950  ./runcommand.sh LockManager releaseLock update_lock
+  951  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  952  exit
+  953  history
+  954  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  955  ./runcommand.sh LockManager releaseLock update_lock
+  956  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  957  exit
+  958  history
+  959  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  960  ./runcommand.sh LockManager releaseLock update_lock
+  961  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  962  exit
+  963  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  964  ./runcommand.sh LockManager releaseLock update_lock
+  965  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  966  ps aux | grep announce
+  967  exit
+  968  history
+  969  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  970  ./runcommand.sh LockManager releaseLock update_lock
+  971  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  972  ps aux | grep announce
+  973  exit
+  974  history
+  975  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  976  ./runcommand.sh LockManager releaseLock update_lock
+  977  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  978  ps aux | grep announce
+  979  exit
+  980  history
+  981  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  982  ./runcommand.sh LockManager releaseLock update_lock
+  983  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  984  ps aux | grep announce
+  985  exit
+  986  history
+  987  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  988  ./runcommand.sh LockManager releaseLock update_lock
+  989  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  990  ps aux | grep announce
+  991  exit
+  992  history
+  993  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  994  ./runcommand.sh LockManager releaseLock update_lock
+  995  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+  996  exit
+  997  cd /usr/local/gemini/endeca/projects/DiceProfile/control
+  998  ./runcommand.sh LockManager releaseLock update_lock
+  999  nohup /usr/local/gemini/endeca/bin/announce_partial_build_coll prod > /tmp/dice_activeprofiles_update.txt &
+ 1000  exit
+ 1001  ps -auxwwww | grep -i dgraph
+ 1002  ps -auxwwww
+ 1003  crontab -l
+ 1004  vi /tmp/dice_activeprofiles_update.txt
+ 1005  view /tmp/dice_activeprofiles_update.txt
+ 1006  history
