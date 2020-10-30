@@ -1,3 +1,7 @@
 postgress read only
-
 boe.bruns  Hawks123!
+
+redshift 
+boe.bruns@dhigroupinc.com Cdef!7654 
+
+alter user "boe.bruns@dhigroupinc.com" password '<new password>';
