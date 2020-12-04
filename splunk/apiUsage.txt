@@ -1,0 +1,1 @@
+index="dice_prod" sourcetype="nginx:plus:kv" source="/var/log/nginx/api.dice.com.access.log" | spath message | rex field=uri_path "/(?<firstpart>\w+)/" |  timechart span=1d count by firstpart
