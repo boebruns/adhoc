@@ -1,8 +1,11 @@
-import urllib2
+import urllib3
 import re
 
+
+http = urllib3.PoolManager()
+
 #connect to a URL
-website = urllib2.urlopen(url)
+website = http.request('GET', "http://www.dice/com")
 
 #read html code
 html = website.read()
