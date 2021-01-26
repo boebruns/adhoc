@@ -1,0 +1,1 @@
+index="sparkpost" sourcetype="aws:s3" "msys.message_event.type"=injection "msys.message_event.friendly_from"="routeresume@dice.com" "msys.message_event.binding_group"="dice_other"
