@@ -1,0 +1,77 @@
+How many "Open Web Download" eventType? last 2 years. (Mongo)
+
+mongo mongo_server_0.diceprod.dhiaws.com -u dicedev -p J7WAYxagwz openwebdownload.js > boe.csv
+
+mongo mongo2.prod.dice.com:27017/tracking -u DiceAPI -p Fty7__qop tracking.js > boe.csv
+
+print("entityid,groupid,eventdata,eventtype")
+db.adminCommand('listDatabases')
+db = db.getSiblingDB('tracking');
+cursor = db.getCollection('TRACKING_DATA').find({eventtype:"Open Web Download",  datecreated : { "$gte" : ISODate("2015-07-01T00:00:00Z"), "$lt" : ISO3T00:00:00Z") }})
+while (cursor.hasNext()) {
+    jsonObject = cursor.next();
+    print(jsonObject.entityid.valueOf() + "," + jsonObject.groupid.valueOf() + "," + jsonObject.eventdata.Messaged[0].downloadDate.tojson().substr(9,10) + "," + jsonObject.eventdata.Messaged[0].PID.valueOf() + "," + jsonObject.eventtype)
+}
+
+
+db.getCollection('TRACKING_DATA').find({eventtype:"Open Web Download",  datecreated : { "$gte" : ISODate("2015-07-01T00:00:00Z"), "$lt" : ISODate("2017-11-13T00:00:00Z") }})
+
+How many “Open Web Saved”  from July 1st 2015 to present.  (Oracle/Mongo)
+    - Month of July 2015
+    - Month by Month
+Oracle — select to_char(modified_date, 'YYYY-MM'), count(*)
+from ows_assoc, ows_tag, OWS_CANDIDATE
+where ows_tag.TAG_ID = ows_assoc.TAG_ID
+and OWS_CANDIDATE.UUID = ows_assoc.UUID
+and length(OWS_CANDIDATE.UUID) > 33
+group by to_char(modified_date, 'YYYY-MM')
+order by 1 desc;
+
+Mongo Playlist_item—
+mongo mongo2.prod.dice.com:27017/tracking -u DiceAPI -p Fty7__qop playlist.js > OW_playlist.csv
+
+db.adminCommand('listDatabases')
+db = db.getSiblingDB('profiles');
+cursor = db.PROFILE_PLAY_LIST_ITEM.find({owsprofileid: {$exists: true}, datecreated : { "$gte" : ISODate("2015-07-01T00:00:00Z"), "$lt" : ISODate("2017-11-13T00:00:00Z") }});
+while (cursor.hasNext()) {
+    jsonObject = cursor.next();
+    print(jsonObject.owsprofileid.valueOf() + "," + jsonObject.datecreated.tojson().substr(9,10))
+} 
+
+How many views of PID.   from July 1st 2015 to present (Oracle)
+    - Month of July 2015
+    - Month by Month.
+
+2015-07    253484
+2015-08    117651
+2015-09    117688
+2015-10    129580
+2015-11    104608
+2015-12    84362
+2016-01    128164
+2016-02    133066
+2016-03    136290
+2016-04    103717
+2016-05    109314
+2016-06    107580
+2016-07    93979
+2016-08    139546
+2016-09    135059
+2016-10    146444
+2016-11    136734
+2016-12    118061
+2017-01    144763
+2017-02    143517
+2017-03    173214
+2017-04    165521
+2017-05    196214
+2017-06    196316
+2017-07    174448
+2017-08    199039
+2017-09    159787
+2017-10    91938
+
+What documentation do we have around the tracking of Downloaded PDF’s  (JIRA)
+https://jira.dice.com/browse/GEM-10850
+
+ 

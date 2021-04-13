@@ -1,0 +1,23 @@
+
+mongoPilot='mongo mongo1.pilot.dice.com -u DiceAPI -p Ety6__qop --authenticationDatabase tracking'
+mongoProd='mongo mongo1.prod.dice.com -u DiceAPI -p Fty7__qop --authenticationDatabase tracking’
+mongoProd='mongo mongo_server_0.diceprod.dhiaws.com -u DiceAPI -p Fty7__qop --authenticationDatabase tracking'
+
+
+use profiles
+show collections
+db.PROFILE_PLAY_LIST.find({}).pretty()
+
+Cool Script javascript
+test.js
+print("customerid,name,magicSearch")
+db.adminCommand('listDatabases')
+db = db.getSiblingDB('profiles');
+cursor = db.PROFILE_PLAY_LIST.find({"magicSearch":true});
+while (cursor.hasNext()) {
+    jsonObject = cursor.next();
+    print(jsonObject.customerid.valueOf() + "," + jsonObject.name + "," + jsonObject.magicSearch)
+ print(jsonObject.url.valueOf() + "," + jsonObject.jobId + "," + jsonObject.payload + "," + jsonObject.dateCreated.valueOf())
+}
+
+
