@@ -1,0 +1,5 @@
+db.getCollection('APPLICATION_REPROCESS').find({ stackTrace: /.*BadPayLoad.*/ , dateCreated : { "$gte" : ISODate("2021-05-01T00:00:00Z"), "$lt" :ISODate("2021-06-01T00:00:00Z") }}).count()
+
+
+--Get all retries for a job AND has BadPayLoad in stackTrace AND is in the month of May 2021
+db.getCollection('APPLICATION_REPROCESS').find({ jobId: '3401278249bd410b0437552bd44d4a75', stackTrace: /.*BadPayLoad.*/ , dateCreated : { "$gte" : ISODate("2021-05-01T00:00:00Z"), "$lt" :ISODate("2021-06-01T00:00:00Z") }})
